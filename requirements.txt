@@ -1,5 +1,2 @@
-Flask>=2.2
-python-telegram-bot>=20.5
-python-dotenv>=0.21
-Pillow>=9.4
-gunicorn>=20.1
+Flask==2.3.3
+python-telegram-bot==20.5
