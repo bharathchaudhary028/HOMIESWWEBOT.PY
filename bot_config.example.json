@@ -1,0 +1,10 @@
+{
+  "app_name": "HOMIES_WWE_BOT",
+  "webhook_path": "/webhook",
+  "max_hp": 200,
+  "max_specials": 4,
+  "max_reversals": 3,
+  "use_images": true,
+  "persistent_dir": "/tmp/wwe_data",
+  "log_level": "INFO"
+}
