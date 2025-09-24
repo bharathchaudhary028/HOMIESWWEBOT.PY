@@ -1,15 +1,10 @@
 {
   "version": 2,
   "builds": [
-    {
-      "src": "api/*.py",
-      "use": "@vercel/python"
-    }
+    { "src": "api/*.py", "use": "@vercel/python" }
   ],
   "functions": {
-    "api/*.py": {
-      "runtime": "python3.11"
-    }
+    "api/*.py": { "runtime": "python3.11" }
   },
   "routes": [
     { "src": "/webhook", "dest": "/api/webhook.py" },
