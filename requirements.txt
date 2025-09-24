@@ -1,1 +1,6 @@
-python-telegram-bot==20.7
+# Webhook + basic utilities (for Vercel / web deployments)
+Flask>=2.2
+python-telegram-bot>=20.0
+gunicorn>=20.1               # WSGI server (useful if you deploy outside Vercel)
+python-dotenv>=0.21          # optional, read .env locally for dev
+Pillow>=9.0                  # optional — for stats/winner images
